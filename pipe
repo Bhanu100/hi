@@ -1,0 +1,9 @@
+node{
+    stage ('build') {
+        echo "This is a Build Proj"
+        git 'https://github.com/Bhanu100/hi.git'
+    }
+    stage ('test') {
+        echo "This is a Deploy Proj"
+    }
+}
